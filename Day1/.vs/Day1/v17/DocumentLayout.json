@@ -1,18 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Orange\\source\\repos\\Day1\\",
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\source\\repos\\day1\\day1.client\\src\\app\\category\\category.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.client\\src\\app\\sub-service\\subservicecomponent.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|solutionrelative:day1.client\\src\\app\\sub-service\\subservicecomponent.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.client\\src\\app\\url\\service-url.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|solutionrelative:day1.client\\src\\app\\url\\service-url.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|solutionrelative:day1.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB113520-66AD-4901-B449-13ADB38C2DEF}|Day1.Server\\Day1.Server.csproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.server\\controllers\\subservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB113520-66AD-4901-B449-13ADB38C2DEF}|Day1.Server\\Day1.Server.csproj|solutionrelative:day1.server\\controllers\\subservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.client\\src\\app\\sub-service\\sub-service.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|solutionrelative:day1.client\\src\\app\\sub-service\\sub-service.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.client\\src\\app\\sub-service\\sub-service.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|solutionrelative:day1.client\\src\\app\\sub-service\\sub-service.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.client\\src\\app\\service\\service.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|solutionrelative:day1.client\\src\\app\\service\\service.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.client\\src\\app\\service\\service.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|solutionrelative:day1.client\\src\\app\\service\\service.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|solutionrelative:day1.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB113520-66AD-4901-B449-13ADB38C2DEF}|Day1.Server\\Day1.Server.csproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB113520-66AD-4901-B449-13ADB38C2DEF}|Day1.Server\\Day1.Server.csproj|solutionrelative:day1.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.client\\src\\app\\category\\category.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|solutionrelative:day1.client\\src\\app\\category\\category.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\source\\repos\\day1\\day1.client\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.client\\src\\app\\nav-bar\\nav-bar.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|solutionrelative:day1.client\\src\\app\\nav-bar\\nav-bar.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|solutionrelative:day1.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB113520-66AD-4901-B449-13ADB38C2DEF}|Day1.Server\\Day1.Server.csproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.server\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB113520-66AD-4901-B449-13ADB38C2DEF}|Day1.Server\\Day1.Server.csproj|solutionrelative:day1.server\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB113520-66AD-4901-B449-13ADB38C2DEF}|Day1.Server\\Day1.Server.csproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB113520-66AD-4901-B449-13ADB38C2DEF}|Day1.Server\\Day1.Server.csproj|solutionrelative:day1.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.client\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|solutionrelative:day1.client\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\source\\repos\\day1\\day1.client\\nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.client\\src\\app\\category\\category.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|solutionrelative:day1.client\\src\\app\\category\\category.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|solutionrelative:day1.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.client\\nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A2FC4007-0E3A-4E3B-9B6E-2E61004FA8DD}|day1.client\\day1.client.esproj|solutionrelative:day1.client\\nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB113520-66AD-4901-B449-13ADB38C2DEF}|Day1.Server\\Day1.Server.csproj|c:\\users\\orange\\desktop\\angular task\\angular-task\\day1\\day1.server\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB113520-66AD-4901-B449-13ADB38C2DEF}|Day1.Server\\Day1.Server.csproj|solutionrelative:day1.server\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +95,251 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "category.component.html",
-              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\Day1\\day1.client\\src\\app\\category\\category.component.html",
-              "RelativeDocumentMoniker": "day1.client\\src\\app\\category\\category.component.html",
-              "ToolTip": "C:\\Users\\Orange\\source\\repos\\Day1\\day1.client\\src\\app\\category\\category.component.html",
-              "RelativeToolTip": "day1.client\\src\\app\\category\\category.component.html",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAABgAAABXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-09-26T12:51:13.516Z",
+              "Title": "SubServiceComponent.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\sub-service\\SubServiceComponent.ts",
+              "RelativeDocumentMoniker": "day1.client\\src\\app\\sub-service\\SubServiceComponent.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\sub-service\\SubServiceComponent.ts",
+              "RelativeToolTip": "day1.client\\src\\app\\sub-service\\SubServiceComponent.ts",
+              "ViewState": "AQIAABMAAAAAAAAAAAAzwBoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-30T07:23:29.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "sub-service.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\sub-service\\sub-service.component.ts",
+              "RelativeDocumentMoniker": "day1.client\\src\\app\\sub-service\\sub-service.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\sub-service\\sub-service.component.ts",
+              "RelativeToolTip": "day1.client\\src\\app\\sub-service\\sub-service.component.ts",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-30T05:07:22.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "angular.json",
-              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\Day1\\day1.client\\angular.json",
-              "RelativeDocumentMoniker": "day1.client\\angular.json",
-              "ToolTip": "C:\\Users\\Orange\\source\\repos\\Day1\\day1.client\\angular.json",
-              "RelativeToolTip": "day1.client\\angular.json",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-26T12:50:28.984Z",
+              "Title": "service-url.service.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\URL\\service-url.service.ts",
+              "RelativeDocumentMoniker": "day1.client\\src\\app\\URL\\service-url.service.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\URL\\service-url.service.ts",
+              "RelativeToolTip": "day1.client\\src\\app\\URL\\service-url.service.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-29T14:07:21.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "day1.client\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\app.module.ts",
+              "RelativeToolTip": "day1.client\\src\\app\\app.module.ts",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACUAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-29T13:48:59.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "app.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\app.component.html",
+              "RelativeDocumentMoniker": "day1.client\\src\\app\\app.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\app.component.html",
+              "RelativeToolTip": "day1.client\\src\\app\\app.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-30T05:18:18.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "sub-service.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\sub-service\\sub-service.component.html",
+              "RelativeDocumentMoniker": "day1.client\\src\\app\\sub-service\\sub-service.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\sub-service\\sub-service.component.html",
+              "RelativeToolTip": "day1.client\\src\\app\\sub-service\\sub-service.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-30T05:18:26.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "service.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\service\\service.component.html",
+              "RelativeDocumentMoniker": "day1.client\\src\\app\\service\\service.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\service\\service.component.html",
+              "RelativeToolTip": "day1.client\\src\\app\\service\\service.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-29T13:48:49.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "service.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\service\\service.component.ts",
+              "RelativeDocumentMoniker": "day1.client\\src\\app\\service\\service.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\service\\service.component.ts",
+              "RelativeToolTip": "day1.client\\src\\app\\service\\service.component.ts",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-29T14:31:46.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "subServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\Day1.Server\\Controllers\\subServiceController.cs",
+              "RelativeDocumentMoniker": "Day1.Server\\Controllers\\subServiceController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\Day1.Server\\Controllers\\subServiceController.cs",
+              "RelativeToolTip": "Day1.Server\\Controllers\\subServiceController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAA1wB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T13:40:19.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "nav-bar.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\nav-bar\\nav-bar.component.html",
+              "RelativeDocumentMoniker": "day1.client\\src\\app\\nav-bar\\nav-bar.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\nav-bar\\nav-bar.component.html",
+              "RelativeToolTip": "day1.client\\src\\app\\nav-bar\\nav-bar.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-29T13:50:04.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\Day1.Server\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "Day1.Server\\Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\Day1.Server\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "Day1.Server\\Controllers\\ServiceController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T13:37:26.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\Day1.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Day1.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\Day1.Server\\appsettings.json",
+              "RelativeToolTip": "Day1.Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-29T13:36:20.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\Day1.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Day1.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\Day1.Server\\Program.cs",
+              "RelativeToolTip": "Day1.Server\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T13:24:36.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "category.component.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\category\\category.component.html",
+              "RelativeDocumentMoniker": "day1.client\\src\\app\\category\\category.component.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\category\\category.component.html",
+              "RelativeToolTip": "day1.client\\src\\app\\category\\category.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-26T12:51:13.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "app.component.ts",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\app.component.ts",
+              "RelativeDocumentMoniker": "day1.client\\src\\app\\app.component.ts",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\app.component.ts",
+              "RelativeToolTip": "day1.client\\src\\app\\app.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-29T13:48:54.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\Day1.Server\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Day1.Server\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\Day1.Server\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "Day1.Server\\Models\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T13:23:41.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\index.html",
+              "RelativeDocumentMoniker": "day1.client\\src\\index.html",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\index.html",
+              "RelativeToolTip": "day1.client\\src\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAADLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-26T13:38:28.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "category.component.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\category\\category.component.css",
+              "RelativeDocumentMoniker": "day1.client\\src\\app\\category\\category.component.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\src\\app\\category\\category.component.css",
+              "RelativeToolTip": "day1.client\\src\\app\\category\\category.component.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-26T13:37:31.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "angular.json",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\angular.json",
+              "RelativeDocumentMoniker": "day1.client\\angular.json",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\angular.json",
+              "RelativeToolTip": "day1.client\\angular.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-26T12:50:28.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "nuget.config",
-              "DocumentMoniker": "C:\\Users\\Orange\\source\\repos\\Day1\\day1.client\\nuget.config",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\nuget.config",
               "RelativeDocumentMoniker": "day1.client\\nuget.config",
-              "ToolTip": "C:\\Users\\Orange\\source\\repos\\Day1\\day1.client\\nuget.config",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\Angular Task\\Angular-Task\\Day1\\day1.client\\nuget.config",
               "RelativeToolTip": "day1.client\\nuget.config",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-26T12:50:27.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T12:50:27.318Z"
             }
           ]
         }

@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;" *ngFor="let Service of servicesArray">
+  <img src="../../assets/images/{{Service.serviceImage}}" class="card-img-top" style="width: 288px; height:250px;">
+  <div class="card-body">
+    <h5 class="card-title">{{Service.serviceName}}</h5>
+    <p class="card-text">{{Service.serviceDescription}}</p>
+    <a routerLink="/SubServiceByServiceId/{{Service.serviceId}}" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
