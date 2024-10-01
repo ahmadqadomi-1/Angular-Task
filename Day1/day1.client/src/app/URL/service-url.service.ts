@@ -29,4 +29,12 @@ export class ServiceUrlService {
   addUserSubscription(data: any): Observable<any> {
     return this.http.post<any>(`${this.staticData}/UserSubs`, data)
   }
+
+  CreateUser(data: any): Observable<any> {
+    return this.http.post(`${this.staticData}/User`, data)
+  }
+
+  getLogIn(data: any): Observable<any> {
+    return this.http.post(`${this.staticData}/User/login`, data)
+  }
 }

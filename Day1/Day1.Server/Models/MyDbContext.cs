@@ -21,6 +21,8 @@ public partial class MyDbContext : DbContext
 
     public virtual DbSet<Subscription> Subscriptions { get; set; }
 
+    public virtual DbSet<User> Users { get; set; }
+
     public virtual DbSet<UserSubscription> UserSubscriptions { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -71,6 +73,15 @@ public partial class MyDbContext : DbContext
             entity.Property(e => e.SubscriptionName)
                 .HasMaxLength(150)
                 .HasColumnName("subscriptionName");
+        });
+
+        modelBuilder.Entity<User>(entity =>
+        {
+            entity.HasKey(e => e.UserId).HasName("PK__Users__1788CC4C374D711E");
+
+            entity.Property(e => e.Email).HasMaxLength(170);
+            entity.Property(e => e.UserName).HasMaxLength(150);
+            entity.Property(e => e.UserPassword).HasMaxLength(150);
         });
 
         modelBuilder.Entity<UserSubscription>(entity =>

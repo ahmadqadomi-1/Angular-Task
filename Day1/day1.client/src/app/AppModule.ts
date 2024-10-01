@@ -1,7 +1,7 @@
 import { HttpClientModule } from "@angular/common/http";
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
-import { FormsModule, NgForm } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { RouterModule } from "@angular/router";
 import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
@@ -13,6 +13,9 @@ import { ServiceComponent } from "./service/service.component";
 import { SubServiceComponent } from "./sub-service/SubServiceComponent";
 import { DetailsComponent } from "./details/details.component";
 import { SubscriptionComponent } from "./subscription/subscription.component";
+import { RegisterComponent } from "./register/register.component";
+import { LogInComponent } from "./log-in/log-in.component";
+
 
 
 
@@ -25,7 +28,9 @@ import { SubscriptionComponent } from "./subscription/subscription.component";
         HomeComponent,
         ServiceComponent,
         SubServiceComponent,
-        SubscriptionComponent
+    SubscriptionComponent,
+    RegisterComponent,
+    LogInComponent
     ],
     imports: [
         FormsModule,
@@ -40,6 +45,8 @@ import { SubscriptionComponent } from "./subscription/subscription.component";
             { path: "SubServiceByServiceId/:id", component: SubServiceComponent },
           { path: "DetailsToSubServiceId/:id", component: DetailsComponent },
           { path: "Subscription", component: SubscriptionComponent },
+          { path: "CreateNewAccount", component: RegisterComponent },
+          { path: "LogIn", component: LogInComponent },
         ])
     ],
     providers: [],
