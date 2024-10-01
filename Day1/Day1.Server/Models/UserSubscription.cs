@@ -15,5 +15,7 @@ public partial class UserSubscription
 
     public int? SubServiceId { get; set; }
 
+    public virtual SubService? SubService { get; set; }
+
     public virtual Subscription? Subscription { get; set; }
 }

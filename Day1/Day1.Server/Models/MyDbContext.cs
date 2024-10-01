@@ -75,19 +75,21 @@ public partial class MyDbContext : DbContext
 
         modelBuilder.Entity<UserSubscription>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__UserSubs__3213E83F305DF6B9");
+            entity.HasKey(e => e.Id).HasName("PK__UserSubs__3213E83F904EE741");
 
-            entity.Property(e => e.Id)
-                .ValueGeneratedNever()
-                .HasColumnName("id");
+            entity.Property(e => e.Id).HasColumnName("id");
             entity.Property(e => e.EndDate).HasColumnName("endDate");
             entity.Property(e => e.StartDate).HasColumnName("startDate");
             entity.Property(e => e.SubServiceId).HasColumnName("subServiceID");
             entity.Property(e => e.SubscriptionId).HasColumnName("subscriptionID");
 
+            entity.HasOne(d => d.SubService).WithMany(p => p.UserSubscriptions)
+                .HasForeignKey(d => d.SubServiceId)
+                .HasConstraintName("FK_SubService_New");
+
             entity.HasOne(d => d.Subscription).WithMany(p => p.UserSubscriptions)
                 .HasForeignKey(d => d.SubscriptionId)
-                .HasConstraintName("FK_Subscription");
+                .HasConstraintName("FK_Subscription_New");
         });
 
         OnModelCreatingPartial(modelBuilder);

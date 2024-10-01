@@ -21,8 +21,8 @@ namespace Day1.Server.Controllers
             var subscription = _db.Subscriptions.Where(x=> x.SubscriptionId == request.SubscriptionId).FirstOrDefault();
             var amount = subscription.SubscriptionAmount;
             var startDate = DateOnly.FromDateTime(DateTime.Now);
-            //var endDate = DateOnly.FromDateTime(DateTime.Now);
-            DateOnly endDate = DateOnly.FromDateTime(DateTime.Now);
+            var endDate = DateOnly.FromDateTime(DateTime.Now);
+            //DateOnly endDate = DateOnly.FromDateTime(DateTime.Now);
             switch (amount)
             {
                 case "7":
