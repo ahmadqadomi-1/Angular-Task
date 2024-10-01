@@ -15,7 +15,6 @@ export class SubServiceComponent {
         this.parameter = this._route.snapshot.paramMap.get("id");
         this.getSubServices(this.parameter);
   }
-  //ServiceUrlService
 
   constructor(private _ser: ServiceUrlService, private _route: ActivatedRoute) { }
 
@@ -24,7 +23,6 @@ export class SubServiceComponent {
 
     getSubServices(id: any) {
       this._ser.getSubServices(id).subscribe((data) => {
-          debugger
             this.SubData = data;
             console.log(this.SubData, "this.SubData");
         });

@@ -18,4 +18,15 @@ export class ServiceUrlService {
     return this.http.get<any>(`${this.staticData}/subService/GetsubServiceForOneService/${id}`)
   }
 
+  getDetailsToSubService(id: any): Observable<any> {
+    return this.http.get<any>(`${this.staticData}/subService/GetSubServicesById/${id}`)
+  }
+
+  getSubscriptionData(): Observable<any> {
+    return this.http.get<any>(`${this.staticData}/subscription`)
+  }
+
+  addUserSubscription(data: any): Observable<any> {
+    return this.http.post<any>(`${this.staticData}/UserSubs`, data)
+  }
 }
