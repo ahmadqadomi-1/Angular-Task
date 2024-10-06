@@ -19,7 +19,7 @@ namespace Day1.Server.Controllers
         [HttpPost]
         public IActionResult Regester([FromForm] UserRequest userdto)
         {
-            var user = _db.Users.Where(x=>x.Email == userdto.Email).FirstOrDefault();
+            var user = _db.Users.Where(x=>x.Email == userdto.Email ).FirstOrDefault();
             if (user != null)
             {
                 return BadRequest("Game Over! You already have ACCOUNT");
@@ -39,7 +39,7 @@ namespace Day1.Server.Controllers
         [HttpPost("login")]
         public IActionResult Log([FromForm] UserLogIn user)
         {
-            var logg = _db.Users.FirstOrDefault(x=>x.Email == user.Email);
+            var logg = _db.Users.FirstOrDefault(x=>x.Email == user.Email && x.UserPassword == user.UserPassword);
             if (logg == null) {
                 return BadRequest("password or email invalid");
             }

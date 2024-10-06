@@ -1,5 +1,5 @@
 import { HttpClientModule } from "@angular/common/http";
-import { NgModule } from "@angular/core";
+import { Component, NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from "@angular/router";
@@ -15,6 +15,8 @@ import { DetailsComponent } from "./details/details.component";
 import { SubscriptionComponent } from "./subscription/subscription.component";
 import { RegisterComponent } from "./register/register.component";
 import { LogInComponent } from "./log-in/log-in.component";
+import { DashboardComponent } from "./AdminDash/dashboard/dashboard.component";
+import { AddServiceComponent } from "./AdminDash/add-service/add-service.component";
 
 
 
@@ -28,9 +30,11 @@ import { LogInComponent } from "./log-in/log-in.component";
         HomeComponent,
         ServiceComponent,
         SubServiceComponent,
-    SubscriptionComponent,
-    RegisterComponent,
-    LogInComponent
+        SubscriptionComponent,
+        RegisterComponent,
+        LogInComponent,
+        DashboardComponent,
+        AddServiceComponent,
     ],
     imports: [
         FormsModule,
@@ -47,6 +51,11 @@ import { LogInComponent } from "./log-in/log-in.component";
           { path: "Subscription", component: SubscriptionComponent },
           { path: "CreateNewAccount", component: RegisterComponent },
           { path: "LogIn", component: LogInComponent },
+          {
+            path: "Dashboard", component: DashboardComponent, children: [
+              { path: "AddService", component: AddServiceComponent }
+            ]
+          }
         ])
     ],
     providers: [],

@@ -1,12 +1,17 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { BehaviorSubject, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ServiceUrlService {
   constructor(private http: HttpClient) { }
+
+  email: BehaviorSubject<string> = new BehaviorSubject<string>("");
+  emailadress = this.email.asObservable();
+
+
   staticData = "https://localhost:7101/api"
 
   getServices(): Observable<any> {
@@ -36,5 +41,9 @@ export class ServiceUrlService {
 
   getLogIn(data: any): Observable<any> {
     return this.http.post(`${this.staticData}/User/login`, data)
+  }
+
+  getAddService(data: any): Observable<any> {
+    return this.http.post(`${this.staticData}/Service/AddNewService`, data)
   }
 }
