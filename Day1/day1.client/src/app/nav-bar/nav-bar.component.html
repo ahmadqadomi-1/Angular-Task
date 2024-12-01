@@ -18,17 +18,18 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" routerLink="/Subscription">Subscription</a>
         </li>
-        <li class="nav-item" *ngIf="!isLoggedIn">
+        <script src="../AdminDash/dashboard/dashboard.component.spec.js"></script>
+        <li class="nav-item" *ngIf="email == ''">
           <a class="nav-link active" routerLink="/CreateNewAccount">Register</a>
         </li>
-        <li class="nav-item" *ngIf="isLoggedIn">
-          <a class="nav-link active" routerLink="/Dashboard">Admin</a>
-        </li>
-        <li class="nav-item" *ngIf="!isLoggedIn">
+        <li class="nav-item" *ngIf="email == ''">
           <a class="nav-link active" routerLink="/LogIn">LogIn</a>
         </li>
-        <li class="nav-item" *ngIf="isLoggedIn">
-          <a class="nav-link active" (click)="logout()">LogOut</a>
+        <li class="nav-item" *ngIf="email != ''">
+          <a class="nav-link active" routerLink="/LogIn">Logout</a>
+        </li>
+        <li class="nav-item" *ngIf="email != ''">
+          <a class="nav-link active" routerLink="/LogIn">Profile</a>
         </li>
       </ul>
     </div>

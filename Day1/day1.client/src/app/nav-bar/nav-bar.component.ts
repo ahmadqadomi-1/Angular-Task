@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { ServiceUrlService } from '../URL/service-url.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -9,17 +10,18 @@ import { Router } from '@angular/router';
 export class NavBarComponent {
   isLoggedIn: boolean = false; // حالة تسجيل الدخول
 
-  constructor(private router: Router) { }
+  constructor(private _ser: ServiceUrlService) { }
 
+
+  email = ""
   ngOnInit() {
-    // التحقق من حالة تسجيل الدخول عند تحميل المكون
-    this.isLoggedIn = localStorage.getItem('isLoggedIn') === 'true';
+    this._ser.emailadress.subscribe((data) => {
+      this.email = data
+    })
+
+
+
   }
 
-  // دالة لتسجيل الخروج
-  logout() {
-    localStorage.removeItem('isLoggedIn'); // إزالة حالة تسجيل الدخول
-    this.isLoggedIn = false; // تحديث الحالة
-    this.router.navigate(['/LogIn']); // توجيه المستخدم إلى صفحة تسجيل الدخول
-  }
+
 }

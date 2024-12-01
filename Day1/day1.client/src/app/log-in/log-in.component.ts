@@ -18,12 +18,13 @@ export class LogInComponent {
       form.append(key, data[key]);
     }
 
-    this._ser.getLogIn(form).subscribe(() => {
+    this._ser.getLogIn(form).subscribe((response) => {
       alert('Welcome in your home');
 
       localStorage.setItem('isLoggedIn', 'true'); 
 
-      
+      this._ser['email'].next(response.email);
+
       if (email.includes('@admin.com')) {
         this._router.navigate(['/Dashboard']); 
       } else {

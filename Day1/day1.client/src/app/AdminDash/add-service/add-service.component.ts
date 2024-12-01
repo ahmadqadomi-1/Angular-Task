@@ -17,7 +17,7 @@ export class AddServiceComponent {
 
   image: any
   changeImage(event: any) {
-    this.image = event.target.files[0]
+    this.image = event.target.files[0] 
   }
 
 

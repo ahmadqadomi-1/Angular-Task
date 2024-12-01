@@ -17,14 +17,15 @@ interface WeatherForecast {
 export class AppComponent implements OnInit {
   public forecasts: WeatherForecast[] = [];
 
-  constructor(private http: HttpClient, private _ser: ServiceUrlService) {}
-  //array: any
-  email =""
+  constructor(private http: HttpClient, private _ser: ServiceUrlService) { }
+
+  email = ""
+
   ngOnInit() {
     this.getForecasts();
-    this._ser.emailadress.subscribe((data) =>
-    this.email = data
-    )
+    this._ser.emailadress.subscribe((data) => {
+      this.email = data
+    })
   }
 
   getForecasts() {
@@ -38,5 +39,5 @@ export class AppComponent implements OnInit {
     );
   }
 
-  title = 'day1.client';
+  title = 'angulartask2.client';
 }
